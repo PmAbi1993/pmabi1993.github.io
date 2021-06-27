@@ -1,8 +1,8 @@
 ---
-
 title: "Solid Principles"
 layout: post
 category: Sw_Int_Qst
+tag: Solid Principles
 ---
 
 The main intention of this architecture is to make our codebase more

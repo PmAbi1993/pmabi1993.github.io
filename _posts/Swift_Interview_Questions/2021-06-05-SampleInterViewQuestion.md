@@ -3,6 +3,7 @@
 title: "Sample Blog Test"
 layout: post
 category: Sw_Int_Qst
+tag: Sample
 ---
 
 
