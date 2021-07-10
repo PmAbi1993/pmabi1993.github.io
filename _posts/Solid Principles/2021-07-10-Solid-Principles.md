@@ -7,33 +7,34 @@ tag: Solid Principles
 
 
 
-Lets all of us agree that, during some point in out career, we had a chance to `review` some code written by someone and, we had to ask ourselves, what have I done in all my previous lives to endure this hell.
+<i>Lets all of us agree that, during some point in out career, we had a chance to `review` some code written by someone and, we had to ask ourselves, what have I done in all my previous lives to endure this hell. </i>
 
-The funny thing to also agree is the code that you reviewed, might have been written by yourselves.
+<i> The funny thing to also agree is the code that you reviewed, might have been written by yourselves. </i>
 
-Don't smirk like you haven't written any sphagetty code Mr.
+<i>Don't smirk like you haven't written any sphagetty code Mr. </i>
 
-These things happen, It's normal. We all were stupid at some point in our lives. Everyone writes sphagetty code. Trust me, I just wrote something a few minutes back. [I'm Kidding of course, Dont do that]
+<i>These things happen, It's normal. We all were stupid at some point in our lives. Everyone writes sphagetty code. Trust me, I just wrote something a few minutes back. [I'm Kidding of course, Dont do that] </i>
 
-You wish somewhere someone gave a thought on how to **reduce all this hell** and, wished there were some guidelines on how **not to code** something, that would make the person who maintaines your code, not to gauge his eyeballs out.
+<i>You wish somewhere someone gave a thought on how to **reduce all this hell** and, wished there were some guidelines on how **not to code** something, that would make the person who maintaines your code, not to gauge his eyeballs out. </i>
 
-And Guess what, here enters SOLID Principles.
+<i>And Guess what, here enters SOLID Principles.</i>
 
-*Solid Principles are basically guidelines on how to write efficient code, that can be maintainable and flexible in the future Iterations.*
-*Coding with keeping SOLID Principles in our mind will also make our code more *
+Solid Principles are basically guidelines on how to write efficient code, that can be maintainable and flexible in the future Iterations.
 
-- *Understandable*
-- *Flexible*
-- *Maintainable*
-- *Testable*
+Coding with keeping SOLID Principles in our mind will also make our code more
 
-Yeah, who writes test cases anyway..??  If you thought so, you are in soo much of trouble dude. You better write those test cases as your next appraisal depends on it.
+- Understandable
+- Flexible
+- Maintainable
+- Testable
+
+<i>Yeah, who writes test cases anyway..??  If you thought so, you are in soo much of trouble dude. You better write those test cases as your next appraisal depends on it.</i>
 
 *This architecture was broadly Implemented by **Robert C Martin** , Uncle bob, author of Viper architecture.*
 
-Lets Code our new side project in viper architecture, SAID NO ONE EVER
+<i>Lets Code our new side project in viper architecture, SAID NO ONE EVER </i>
 
-
+<i>Sample Cooode</i>
 
 ------
 
