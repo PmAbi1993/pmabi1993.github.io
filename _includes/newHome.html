@@ -1,14 +1,10 @@
-{%- assign posts = paginator.posts | default: site.categories.Sw_Int_Qst -%}
-{% for post in posts %}
+{% for category in site.categories %}
 <article>
-  <h1>{{ post.tag }}</h1>
-  <li>{{ post.title }} <a href="{{ post.url || relativeUrl }}">View</a> </li>
+  <h1> {{ category | first }} </h1> 
+  <ul>
+  {% for post in category.last %}
+    <li><a href="{{ post.url }}" style="color: $light;">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
 </article>
 {% endfor %}
-{% if paginator.total_pages > 1 %}
-  <footer>
-    {% if paginator.previous_page %}<a href="{{ paginator.previous_page_path | relative_url }}">« newer posts</a>{% else %}<span></span>{% endif %}
-    <span>page {{ paginator.page }} of {{ paginator.total_pages }}</span>
-    {% if paginator.next_page %}<a href="{{ paginator.next_page_path | relative_url }}">older posts »</a>{% else %}<span></span>{% endif %}
-  </footer>
-{% endif %}
