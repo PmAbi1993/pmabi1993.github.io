@@ -34,7 +34,19 @@ Coding with keeping SOLID Principles in our mind will also make our code more
 
 <i>Lets Code our new side project in viper architecture, SAID NO ONE EVER </i>
 
-<i>Sample Cooode</i>
+The acronym SOLID was defined from:
+
+- S: Single responsibility principle
+- O: Open/closed principle
+- L: Liskov substitution principle
+- I: Interface segregation principle
+- D: Dependency inversion principle
+
+<i> Well, some one stop me before saying, the acronym for SOLID came out pretty solid eh,??.</i>
+
+ <i>I'll take my leave now</i>
+
+In short adhering to SOLID Principles will make us build scalable and efficient code.
 
 ------
 
