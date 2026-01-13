@@ -16,12 +16,12 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       
-      - uses: actions/setup-ruby@v3
+      - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.1'
+          ruby-version: '3.2'
+          bundler-cache: true
       
-      - run: bundle install
-      - run: bundle exec jekyll b
+      - run: bundle exec jekyll b -d _site
       
       - uses: actions/upload-pages-artifact@v3
         with:
